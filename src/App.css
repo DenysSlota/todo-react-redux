@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;  
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 900;
+  padding: 15px;
+  border-radius: 1px solid grey;
+  
+}
